@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@1&family=Poppins:ital,wght@0,300;0,500;1,500&display=swap");
+
+* {
+  font-family: "Alumni Sans Inline One";
+}
+body {
+  background: rgb(193, 87, 133);
+  background: linear-gradient(
+    90deg,
+    rgba(193, 87, 133, 1) 0%,
+    rgba(232, 58, 135, 1) 0%,
+    rgba(16, 86, 169, 1) 96%
+  );
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(255, 255, 255);
+  width: 400px;
+  height: 320px;
+  margin-left: 564px;
+  margin-top: 52px;
+  border-radius: 40px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+
+  backdrop-filter: blur(255px);
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+input {
+  display: flex;
+  width: 290px;
+  height: 50px;
+
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding-left: 40px;
+  color: #626262;
+  font-size: 20px;
+  font-weight: 400;
+  border: 1px solid rgb(230, 223, 223);
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 120px;
+  height: 50px;
+
+  margin-left: 36px;
+  margin-top: 25px;
+  border-radius: 30px;
+
+  font-size: 15px;
+  font-weight: 300;
+  font-family: Alumni Sans Inline One;
+  cursor: pointer;
+  font-family: "Times New Roman", Times, serif;
+  border: none;
+  color: rgb(234, 234, 241);
+  background-color: green;
+  border: 1px solid rgb(176, 176, 181);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+button:hover {
+  background: rgb(50, 200, 205);
+  color: rgb(23, 5, 67);
+}
+.output {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.reset {
+  color: rgb(14, 14, 15);
+  background-color: rgb(187, 227, 187);
+  border: 1px solid rgb(176, 176, 181);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.reset:hover {
+  color: rgb(234, 234, 241);
+  background-color: green;
+  border: 1px solid rgb(176, 176, 181);
+}
